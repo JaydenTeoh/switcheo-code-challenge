@@ -18,7 +18,7 @@ What I enjoyed most about the problems was that although each question has a cle
 1. Learnt how to convert Javascript to Typescript from Problem 4
 2. Refreshed my memory of basic SQL syntaxes for Problem 7
 3. Explored Framer Motion to implement animations for Problem 2
-4. Learnt how to work with Git (forking, cloning) **still need to work on this**
+4. Learnt how to work with Git (forking, cloning) *(still need to work on this)*
 
 ## Conclusion ##
 
