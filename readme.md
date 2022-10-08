@@ -1,10 +1,7 @@
-# Switcheo Code Challenge #1 #
+# Switcheo Code Challenge #
 
-Note that if you fork this repository, your responses may be publicly linked to this repo.  
-Please submit your application along with the solutions attached or linked.   
+This is the submission for Switcheo's Full-Stack Software Engineer Internship Code Challenge
 
-It is important that you minimally attempt the problems, even if you do not arrive at a working solution.
+There are 5 problems in this challenge, each testing different skillsets that are required for a Blockchain Software Engineer
 
-## Submission ##
-You can either provide a link to an online repository, attach the solution in your application, or whichever method you prefer.
-We're cool as long as we can view your solution without any pain.
+## Thoughts ##
