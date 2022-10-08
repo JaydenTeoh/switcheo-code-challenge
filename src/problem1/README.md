@@ -8,7 +8,7 @@ Provide 3 unique implementations of the following function.
 
 **Output:**`return`-summation to `n`, i.e. `sum_to_n(5) === 1 + 2 + 3 + 4 + 5 === 15`.
 
-```
+```js
 var sum_to_n_a = function(n) {
     // your code here
 };
