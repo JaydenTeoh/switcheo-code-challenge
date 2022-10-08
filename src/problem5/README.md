@@ -30,7 +30,7 @@ const test = async () => {
 test().then(console.log);
 ```
 
-##Expected Output:
+## Expected Output:
 The output should be organized as one `token amount` per object.
 ```js
 [
