@@ -52,7 +52,7 @@ The output should be organized as one `token amount` per object.
 2. Create a new contract `GetTokenBalance.sol` that:
 	- Defines a struct TokenBalance which takes in an address (token address) and an uint256 (token balance)
 	- Defines a function `getBalance(address, address[])` which takes in the wallet address and array of tokens as parameters and returns a struct array TokenBalance[]
-	- Loop through the array of address and use the IERC20 `balanceOf(account)` function to get the token balances of the wallet
+	- Loop through the array of token addresses and use the IERC20 `balanceOf(account)` function to get the token balances of the wallet
 	- Create a new TokenBalance datatype for each token address and the balance of the token in the wallet, then add it in the TokenBalance array
 	- Return TokenBalance[]
 3. Create deploy script that uses `ethers.deploy()` to deploy the GetTokenBalance contract onto the Mainnet/Testnet
