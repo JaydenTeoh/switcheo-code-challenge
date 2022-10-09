@@ -25,4 +25,4 @@ The output should be organized as one `address amount` per line.
 ## My Solution
 
 The $SWTH Token is an ERC20 implementation. Hence, it should provide a `balanceOf(account)` getter function in its contract.<br />
-By using `new ethers.Contract( address , abi , signerOrProvider )` to create an instance of the token contract, we can call the `balanceOf(account)` function to retrieve the token balance of the wallet addresses.
+By using `new ethers.Contract(address,abi,signerOrProvider)` to create an instance of the token contract, we can call the `balanceOf(account)` function to retrieve the token balance of the wallet addresses.
