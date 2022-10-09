@@ -44,7 +44,7 @@ Please submit your solution using the files provided in the skeletal repo, inclu
 
 ## Demo
 
-[Live Demo](https://switcheo-code-challenge.vercel.app/)
+[Live Demo](https://switcheo-code-challenge-jaydenteoh.vercel.app/)
 
 
 ## Languages & Tools
