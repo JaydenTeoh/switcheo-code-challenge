@@ -60,6 +60,10 @@ Please submit your solution using the files provided in the skeletal repo, inclu
   * React-moralis for access to Moralis SDK and ease of connection to the Ethereum Network<br />
   * web3uikit for lightweight UI components for Web3 developing<br />
   
+### API
+  * CoinMarketAPI to receive real-time price of ETH
+  * Axis to make API requests to get the information of ETH currency
+  
 ## Approach
  
 Although this was a mainly front-end challenge, I wanted to implement backend logic to showcase how Web3 functions can be implemented as attractive UI components. I decided to make the ETH transaction form functional using `ethers`. The ConnectButton from `web3uikit` allows users connect their wallets to the application to transact ETH easily. The NotificationProvider from `web3uikit` allows for input validation/error messages, further adding to the functionality of the website. As the form is actually functional, I decided to remove the OTP validation input as it would be a huge inconvenience for users who are looking to transact seamlessly and repetively. <br />
@@ -69,4 +73,20 @@ Once the backend logic of the application was in place, I began working on the a
 ## Screenshots
 
 Here are some screenshots of the website to showcase the functionalities of the website.
+
+# Main Page:
+**Desktop View:**![image](https://user-images.githubusercontent.com/90945854/194762309-7f9ebb96-75a0-4493-a331-c3b44683f74d.png)
+<br />**Phone View:**<br />![image](https://user-images.githubusercontent.com/90945854/194762679-d3709ac5-4b08-4ed7-b4e7-01f8aefae10d.png)
+
+# Metamask Connection
+![image](https://user-images.githubusercontent.com/90945854/194762741-7de806d3-3426-4c6c-9139-ae8cd2bb46bf.png)
+
+# Transfer Form:
+![image](https://user-images.githubusercontent.com/90945854/194762405-2a8199d7-3e43-415f-afe1-a46b6e0c2462.png)
+
+# Notification Bubble:
+**Successful:** ![image](https://user-images.githubusercontent.com/90945854/194762587-27224a67-174b-41a7-acaf-9702a7b52efb.png)
+<br />**Error:** ![image](https://user-images.githubusercontent.com/90945854/194762548-47695641-3559-4123-b869-98bd6efaa6ec.png)
+
+
 
