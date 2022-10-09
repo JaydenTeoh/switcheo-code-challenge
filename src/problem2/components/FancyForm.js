@@ -1,7 +1,9 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import ErrorMessage from "./ErrorMessage";
 import { ethers } from "ethers";
 import { useNotification } from "web3uikit";
+import axios from "axios";
+import { SingleCoin } from "../pages/api/api";
 
 const startPayment = async ({ setError, dispatch, ether, addr }) => {
   try {
@@ -33,9 +35,20 @@ const startPayment = async ({ setError, dispatch, ether, addr }) => {
     });
   }
 };
+
 export default function FancyForm({ handleClose }) {
   const [error, setError] = useState();
   const dispatch = useNotification();
+  const [ethInfo, setEthInfo] = useState();
+  const [ethAmount, setEthAmount] = useState(0);
+  const fetchCoin = async () => {
+    const { data } = await axios.get(SingleCoin);
+    setEthInfo(data);
+  };
+
+  useEffect(() => {
+    fetchCoin();
+  }, []);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -74,7 +87,15 @@ export default function FancyForm({ handleClose }) {
                   type="text"
                   className="w-full rounded-md p-2"
                   placeholder="Amount in ETH"
+                  onChange={(e) => setEthAmount(e.target.value)}
                 />
+              </div>
+              <div className="text-slate-500 text-md font-semibold">
+                {ethAmount.toString() + " ETH ="}
+                {" $SGD " +
+                  (ethAmount * ethInfo?.market_data.current_price["sgd"])
+                    .toString()
+                    .slice(0, 8)}
               </div>
             </div>
           </main>

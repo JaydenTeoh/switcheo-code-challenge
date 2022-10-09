@@ -11,7 +11,7 @@ export default function Modal({ handleClose }) {
       y: "0",
       overflowY: "hidden",
       opacity: 1,
-      transiton: {
+      transition: {
         duration: 0.1,
         type: "spring",
         damping: 25,

@@ -15,7 +15,7 @@ export default function Header() {
         </h1>
       </div>
       <div>
-        <ConnectButton moralisAuth={false} className="color:[#d7ef9c]" />
+        <ConnectButton moralisAuth={false} />
       </div>
     </nav>
   );
