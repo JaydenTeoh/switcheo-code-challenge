@@ -62,7 +62,7 @@ Please submit your solution using the files provided in the skeletal repo, inclu
   
 ### API
   * CoinMarketAPI to receive real-time price of ETH
-  * Axis to make API requests to get the information of ETH currency
+  * Axios to make API requests to get the information of ETH currency
   
 ## Approach
  
